@@ -1,16 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('Iteration_Test') {
             steps {
-                echo 'Building a maven proj'
-            }
+                echo 'Testing Iteration code'
+                  }
         }
-        stage('package') {
-            steps {
-                echo 'Package a maven proj'
-            }
-        }
-    }
-    
+    }    
 }
