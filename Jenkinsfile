@@ -4,6 +4,10 @@ pipeline {
         stage('Activation_Test') {
             steps {
                 echo 'Testing Activation code'
+                  }
+            }
+         stage('Result_Test') {
+            steps {
                 publishHTML target: [
                         allowMissing: false,
                         alwaysLinkToLastBuild: false,
@@ -13,6 +17,6 @@ pipeline {
                         reportName: 'DSP Validation Report'
                       ]
                   }
-        }
+            }
     }    
 }
