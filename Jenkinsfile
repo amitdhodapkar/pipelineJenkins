@@ -3,12 +3,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'Building a maven proj'
+                echo 'Dev Code: Build a proj'
             }
         }
         stage('package') {
             steps {
-                echo 'Package a maven proj'
+                echo 'Dev Code: Package a proj'
             }
         }
     }
