@@ -14,7 +14,7 @@ pipeline {
                         keepAll: true,
                         reportDir: 'reports',
                         reportFiles: 'index.html',
-                        reportName: 'DSP Activation Validation Report'
+                        reportName: 'DSP Iteration Validation Report'
                       ]
                   }
             }
