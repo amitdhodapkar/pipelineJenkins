@@ -1,16 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('Dev_Test') {
             steps {
-                echo 'Dev Code: Build a proj'
-            }
+                echo 'Testing Dev code'
+                  }
         }
-        stage('package') {
-            steps {
-                echo 'Dev Code: Package a proj'
-            }
-        }
-    }
-    
+    }    
 }
